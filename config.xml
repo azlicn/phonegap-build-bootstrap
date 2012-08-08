@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns		= "http://www.w3.org/ns/widgets"
 	xmlns:gap	= "http://phonegap.com/ns/1.0"
-	id		= "com.you.www"
+	id		= "com.azli.www"
 	version 	= "1.0.0">
 
-	<name>Your Mind Blowing App</name>
+	<name>Azlicn</name>
 
 	<description>
-		A brilliant mobile application written by you and now available on every platform thanks to Kendo UI Mobile and PhoneGap Build.
+		A super simple application for testing Phonegap Build With Kendo UI Mobile
 	</description>
 
 	<author href="build.phonegap.com"
-		email="">
-		Mr. Mobile Madness
+		email="azlicn@yahoo.com">
+		Azli CN
 	</author>
 
 	<icon src="icon.png" gap:role="default" />

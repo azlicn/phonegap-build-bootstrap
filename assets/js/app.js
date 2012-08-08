@@ -26,3 +26,19 @@ MYAPP.show = (function() {
         document.addEventListener('deviceready', MYAPP.run, false);
     }
 })();
+
+// this function returns a Kendo UI DataSource 
+// which reads the top threads off of the programming.reddit 
+// datasource 
+MYAPP.reddit = kendo.data.DataSource.create({ 
+	// set the data to a local array of object 
+	transport: { 
+		read: "http://reddit.com/r/programming.json" 
+	}, 
+	schema: { 
+		data: "data.children", 
+		fields: { 
+			title: "data.title" 
+		} 
+	} 
+});
